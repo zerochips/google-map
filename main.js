@@ -1,7 +1,7 @@
-//const API_KEY="------"; 코딩알려주는누나에서 const url="ServiceKey=${API_KEY}가 정상적으로 작동이 안돼서 맵이 나타나지 않았다."
+//const API_KEY="-----"; 코딩알려주는누나에서 const url="ServiceKey=${API_KEY}가 정상적으로 작동이 안돼서 맵이 나타나지 않았다."
 
 async function getData(){ /*await 함수를 사용하려면 async 라는 함수를 선언을 해줘야한다*/
-    const url="------"; /*이 부분에 요청주소 삽입*/
+    const url="-----"; /*이 부분에 요청주소 삽입*/
     const response = await fetch(url);
     const data = await response.json(); /*여기까지가 API를 부르는 가장 기본적인 명령어이다*/
     console.log("data", data);
